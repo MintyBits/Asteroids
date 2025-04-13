@@ -12,4 +12,6 @@ include_directories(include)
 set(SOURCES
 	src/main.cpp)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lSDL3")
+
 add_executable(${PROJECT_NAME} ${SOURCES})

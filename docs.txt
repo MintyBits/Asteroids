@@ -1,0 +1,13 @@
+Asteroids
+  - Have different sizes big medium small.
+  - When you shoot them they break apart into a smaller size and double so 
+    shoot a big and you get two mediums and shoot a medium you get two smalls.
+  - Spawn with random velocities and positions outside the screen.
+  - When they collide with a player or invader they destroy them, and then break apart.
+  - The asteroids wrap around when they exit the viewing area.
+
+Player / Spaceship 
+  - You can only move forward but can change your direction smoothly with arrow keys.
+  - You maintain some velocity when you press forward so it's like you are moving through space.
+  - You can shoot a laser by pressing the spacebar, the laser will destroy invaders and asteroids.
+  - When you hit the boundaries of the screen you smoothly reappear on the opposite side.
